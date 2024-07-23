@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Persons({person}) {
+function Persons({person , key}) {
   return (
     <div>
-      <h2>I am {person.name}.My id is {person.id}.My age is {person.age}.I know {person.skill}</h2>
+      <h2>
+       {key} I am {person.name}.My id is {person.id}.My age is {person.age}.I know {person.skill}</h2>
 
     </div>
   )
