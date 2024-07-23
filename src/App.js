@@ -15,6 +15,7 @@ import Inline from './components/Inline';
 import './appStyles.css'
 import  styles from './appStyles.module.css'
 import Form from './components/Form';
+import Forms from './components/Forms';
 
 function App() {
   return (
@@ -63,8 +64,12 @@ function App() {
       <h1 className={styles.sucess}>Sucess</h1> */}
 
 
-      <Form />
-  
+      {/* <Form /> */}
+
+      <Forms />
+
+
+      
 
     </div> 
 
