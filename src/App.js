@@ -17,6 +17,9 @@ import  styles from './appStyles.module.css'
 import Form from './components/Form';
 import Forms from './components/Forms';
 import LifecycleA from './components/LifecycleA'
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+
 
 function App() {
   return (
@@ -70,7 +73,11 @@ function App() {
       {/* <Forms /> */}
 
 
-      <LifecycleA />
+      {/* <LifecycleA /> */}
+
+      <FragmentDemo />
+
+      <Table />
 
       
 
