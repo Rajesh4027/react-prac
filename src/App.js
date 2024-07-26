@@ -19,6 +19,8 @@ import Forms from './components/Forms';
 import LifecycleA from './components/LifecycleA'
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+// import Purecomp from './components/Pure Component/Purecomp';
+import Parentcomp from './components/Pure Component/Parentcomp';
 
 
 function App() {
@@ -75,10 +77,11 @@ function App() {
 
       {/* <LifecycleA /> */}
 
-      <FragmentDemo />
+      {/* <FragmentDemo />
 
-      <Table />
+      <Table /> */}
 
+      <Parentcomp />
       
 
     </div> 
