@@ -21,6 +21,9 @@ import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 // import Purecomp from './components/Pure Component/Purecomp';
 import Parentcomp from './components/Pure Component/Parentcomp';
+import Memo from './components/Memo';
+
+
 
 
 function App() {
@@ -81,7 +84,9 @@ function App() {
 
       <Table /> */}
 
-      <Parentcomp />
+      {/* <Parentcomp /> */}
+
+        
       
 
     </div> 
