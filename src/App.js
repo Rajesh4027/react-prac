@@ -22,7 +22,8 @@ import Table from './components/Table';
 // import Purecomp from './components/Pure Component/Purecomp';
 import Parentcomp from './components/Pure Component/Parentcomp';
 import Memo from './components/Memo';
-
+import RefsDemo from './components/RefsDemo';
+import PostList from './components/PostList';
 
 
 
@@ -87,7 +88,9 @@ function App() {
       {/* <Parentcomp /> */}
 
         
+        {/* <RefsDemo /> */}
       
+      <PostList />
 
     </div> 
 
